@@ -22,9 +22,9 @@
 
   vars:
     ansible_python_interpreter: /usr/bin/python3.10
-    keypair: Mumbai
+    keypair: gitlab
     instance_type: t2.micro
-    image_id: ami-0f5ee92e2d63afc18
+    image_id: ami-03f4878755434977f
     wait: yes
     group: webserver
     count: 1
